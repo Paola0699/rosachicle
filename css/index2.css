@@ -1910,7 +1910,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    border-bottom: 1px solid #b38e6a;
+    border-bottom: 1px solid #ffafcc;
     padding-bottom: 8px
 }
 
@@ -1928,7 +1928,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 .menu_tab-trigger .icon:after,.menu_tab-trigger .icon:before {
     content: '';
     position: absolute;
-    background: #b38e6a
+    background: #ffafcc
 }
 
 .menu_tab-trigger .icon:before {
