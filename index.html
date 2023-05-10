@@ -10,7 +10,9 @@
         <link rel="stylesheet preload" as="style" href="css/preload.min.css" />
         <link rel="stylesheet preload" as="style" href="css/icomoon.css" />
         <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/index2.css" />
     </head>
     <body>
@@ -126,8 +128,8 @@
             <section class="menu section">
                 <div class="container">
                     <div class="section_header centered">
-                        <span class="section_header-subtitle" data-aos="fade-down">nuestro</span>
-                        <h2 class="section_header-title" data-aos="fade-up" data-aos-delay="50">MENÚ</h2>
+                        <span style="font-family: Birthstone Bounce; color: #e12778; font-size: 2.5rem; margin-bottom: -37px;"  data-aos="fade-down" >nuestro</span>
+                        <h2 style="font-family: texgyrepagella-bold; font-size: 5em;" class="section_header-title" data-aos="fade-up" data-aos-delay="50">MENÚ</h2>
                     </div>
                     <div class="menu_main">
                         <ul class="menu_nav nav nav-tabs d-flex flex-wrap justify-content-center" role="tablist">
@@ -160,7 +162,7 @@
                                     class="nav-link active"
                                     id="breakfasts-tab"
                                     data-bs-toggle="tab"
-                                    data-bs-target="#breakfasts"
+                                    data-bs-target="#papas"
                                     role="tab"
                                     aria-selected="false"
                                 >
@@ -177,30 +179,34 @@
                                     aria-expanded="true"
                                     role="button"
                                 >
-                                    <span class="label h4">BOBA</span>
+                                    <span class="label h3">BOBA</span>
                                     <i class="icon"></i>
                                 </span>
                                 <ul class="menu_tab-list collapse show" id="starters">
                                     <li class="menu_tab-list_item">
-                                        <div class="main h5">
-                                            <a class="main_name" href="#">Cappuccino</a>
-                                            <span class="main_price">$110.00</span>
-                                        </div>
+                                        <ul>
+                                            <li>
+                                                <div class="main h5">
+                                                    <a class="main_name" href="#">Cappuccino</a>
+                                                    <span class="main_price">$110.00</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="main h5">
+                                                    <a class="main_name" href="#">Caramel machiatto</a>
+                                                    <span class="main_price">$110.00</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="main h5">
+                                                    <a class="main_name" href="#"> Moka</a>
+                                                    <span class="main_price">$110.00</span>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="menu_tab-list_item">
-                                        <div class="main h5">
-                                            <a class="main_name" href="#">Caramel machiatto</a>
-                                            <span class="main_price">$110.00</span>
-                                        </div>
-                                    </li>
-                                    <li class="menu_tab-list_item">
-                                        <div class="main h5">
-                                            <a class="main_name" href="#"> Moka</a>
-                                            <span class="main_price">$110.00</span>
-                                        </div>
-                                    </li>
-                                    <li class="menu_tab-list_item">
-                                        <div class="main h5">
+                                        <div class="main h4">
                                             <a class="main_name" href="#">MILK TEA</a>
                                         </div>
                                         <ul>
@@ -219,7 +225,7 @@
                                         </ul>
                                     </li>
                                     <li class="menu_tab-list_item">
-                                        <div class="main h5">
+                                        <div class="main h4">
                                             <a class="main_name" href="#">MILK AND NOT MILK</a>
                                         </div>
                                         <ul>
@@ -248,7 +254,7 @@
                                                 </div>
                                             </li>
                                         </ul>
-                                        <p>**con leche o soda</p>
+                                        <p class="h6" style="text-align: right; margin-top: 15px;">**con leche o soda</p>
                                     </li>
                                 </ul>
                             </div>
@@ -260,7 +266,7 @@
                                     aria-expanded="false"
                                     role="button"
                                 >
-                                    <span class="label h4">ICE</span>
+                                    <span class="label h3">ICE</span>
                                     <i class="icon"></i>
                                 </span>
                                 <ul class="menu_tab-list collapse" id="breakfasts">
@@ -276,31 +282,32 @@
                                             <span class="main_price">$120.00</span>
                                         </div>
                                     </li>
+                                    <p  class="h6" style="text-align: right; margin-top: 15px;">*incluye 4 toppings y taiyaki</p>
+                                    <p class="h6" style="text-align: right; margin-top: 15px;">**pide tu bebida con leche vegetal o leche entera , deslactosada, light, almendra , coco</p>
                                 </ul>
-                                <p>*incluye 4 toppings y taiyaki</p>
-                                <p>**pide tu bebida con leche vegetal o leche entera , deslactosada, light, almendra , coco</p>
+                                
                             </div>
 
                             <div class="menu_tab tab-pane fade">
                                 <span
                                     class="menu_tab-trigger"
                                     data-bs-toggle="collapse"
-                                    data-bs-target="#breakfasts"
+                                    data-bs-target="#papas"
                                     aria-expanded="false"
                                     role="button"
                                 >
-                                    <span class="label h4">PAPAS</span>
+                                    <span class="label h3">PAPAS</span>
                                     <i class="icon"></i>
                                 </span>
-                                <ul class="menu_tab-list collapse" id="breakfasts">
+                                <ul class="menu_tab-list collapse" id="papas">
                                     <li class="menu_tab-list_item">
                                         <div class="main h5">
                                             <a class="main_name" href="#">Naturales o Adobadas</a>
                                             <span class="main_price">$69.00</span>
                                         </div>
                                     </li>
+                                    <p class="h6" style="text-align: right; margin-top: 15px;">**pueden ser con cacahuates japoneses, churritos, gomitas enchiladas, cacahuates enchilados</p>
                                 </ul>
-                                <p>**pueden ser con cacahuates japoneses, churritos, gomitas enchiladas, cacahuates enchilados</p>
                             </div>
                         </div>
                     </div>
@@ -380,7 +387,7 @@
                 </div>
                 <div class="footer_block">
                     <h4 class="footer_block-title">Síguenos</h4>
-                    <p class="footer_block-subtitle text--md text--bold">No encontramos en redes sociales</p>
+                    <p class="footer_block-subtitle text--md text--bold">Nos encontramos en redes sociales</p>
                     <ul class="footer_block-socials d-flex">
                         <li>
                             <a class="link" href="https://twitter.com" target="_blank" rel="noopener noreferrer">

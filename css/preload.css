@@ -41,4 +41,22 @@
 @font-face {
     font-family:Raleway;src:local("Raleway-Bold"),url(../fonts/Raleway-Bold.woff2) format("woff2"),url(../fonts/Raleway-Bold.woff) format("woff");font-weight:700;font-style:normal;font-display:swap
 }
+@font-face {
+    font-family: Hind Guntur;
+    src: local("HindGuntur-Regular"),url(../fonts/HindGuntur-Regular.ttf) format("ttf"),url(../fonts/HindGuntur-Regular.ttf) format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family:Montserrat;src:local("HindGuntur-Bold"),url(../fonts/HindGuntur-Bold.ttf) format("ttf"),url(../fonts/HindGuntur-Bold.ttf) format("ttf");font-weight:700;font-style:normal;font-display:swap
+}
+@font-face {
+    font-family: texgyrepagella-bold;
+    src: local("texgyrepagella-bold"),url(../fonts/texgyrepagella-bold.otf) format("otf"),url(../fonts/texgyrepagella-bold.otf) format("otf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
 /*# sourceMappingURL=../sourcemaps/preload.css.map */
